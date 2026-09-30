@@ -73,7 +73,7 @@ Tensors are not merely a convenient data structure. They are the **mathematical 
 
 $$f(\mathbf{x}) = \sigma_n(W_n \sigma_{n-1}(W_{n-1} \cdots \sigma_1(W_1 \mathbf{x} + \mathbf{b}_1) \cdots + \mathbf{b}_{n-1}) + \mathbf{b}_n)$$
 
-Each $W_i $ is a matrix (2-tensor), each $ \mathbf{b}_i $ is a vector (1-tensor), and the intermediate activations are vectors or higher-order tensors (for convolutional and attention layers).
+Each $W_i$ is a matrix (2-tensor), each $\mathbf{b}_i$ is a vector (1-tensor), and the intermediate activations are vectors or higher-order tensors (for convolutional and attention layers).
 
 When you debug a neural network, you are debugging tensor operations. When you optimize a neural network, you are optimizing tensor operations. When you interpret a neural network, you are interpreting tensor operations. The tensor is the atom of deep learning.
 
@@ -178,8 +178,10 @@ $\mathbf{x} = [1.0, 2.0, 3.0, 4.0, 5.0] $.
 Write it mathematically, then translate to PyTorch.
 
 Mathematically:
-$$\mathbf{x} = \begin{bmatrix} 1.0 \\ 2.0 \\ 3.0 \\ 4.0 \\ 5.0 \end{bmatrix} \in \mathbb{R}^5$$
 
+$$
+\mathbf{x} = \begin{bmatrix} 1.0 \\ 2.0 \\ 3.0 \\ 4.0 \\ 5.0 \end{bmatrix} \in \mathbb{R}^5
+$$
 In PyTorch:
 
 ```python
