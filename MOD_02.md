@@ -99,8 +99,6 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 
 ```python
 import torch
-import numpy as np
-import random
 
 print(f"PyTorch version: {torch.__version__}")
 print(f"CUDA available: {torch.cuda.is_available()}")
