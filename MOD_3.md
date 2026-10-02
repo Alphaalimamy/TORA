@@ -1,6 +1,6 @@
 # Module 3: Autograd and Computation Graphs
 
-## Stanford University | CS 336: PyTorch for Research
+## TORA | CS 336: PyTorch for Research
 
 **Instructor:** Alpha Alimamy Kamara
 
